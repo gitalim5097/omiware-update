@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+/*Google font*/
+/*font-family: 'PT Sans', sans-serif;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,ol,li,img,.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+.slides-navigation .prev,
+.slides-navigation .next{
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.slides-navigation a.prev{
+    left: 20px;
+    background-image: url(../image/prev.png);
+    z-index: 9;
+
+}
+.slides-navigation a.next{
+    right: 20px;
+    background-image: url(../image/next.png);
+    z-index: 9;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px rgb(36, 221, 179,0.8);
+}
+.section-padding{
+    padding: 30px 0px;
+}
+.testimonial-carousel{
+    margin: 5% auto 0;
+}
+.img-area{
+    width: 250px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.img-area img{
+    width: 100%;
+}
+.img-area h4{
+    padding: 10px 5px;
+}
+.single-testi{
+    background: fff;
+    padding: 5%;
+    text-align: center;
+   /* border: 1px solid rgba(0,0,0,0.3);*/
+   box-shadow: 2px 2px 5px rgb(36, 221, 179,0.8);
+
+}
+.head h2{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: rgba(166, 217, 237,0.4);
+}
+
+
+
+.section{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.about-sec-tag h4 {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #ed2a28;
+}
+.about-sec-tag ul{
+    margin-bottom: 15px;
+}
+.about-sec-tag ul li {
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    display: inline-block;
+    width: 49%;
+}
+.about-sec-img img{
+    height: 450px;
+    width: 450px;
+}
+.about-sec-tag .founder-text {
+    padding-left: 40px;
+    position: relative;
+    border-left: 2px solid #ddd;
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+.about-sec-tag .founder-text::before {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-family: fantasy;
+    content: "\f10d";
+    color: #f0f0f0;
+    font-size: 22px;
+}
+
+
+/*Team CSS*/
+
+
+.team{
+    padding-top: 20px;
+}
+.team-head {
+    
+    background: rgba(166, 217, 237,0.4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+ .div2x{
+    width: 60%;
+    height: 5px;
+    background: rgb(97, 156, 250);
+    margin: 0 auto;
+
+}
+.team-about{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.team-top img{
+    padding-bottom: 20px;
+}
+.team-top h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #2d3033;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.team-top h6{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: #e84545;
+    padding-bottom: 25px;
+    padding-left: 5px;
+}
+.team-top p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: #6c7279;
+    padding-bottom: 25px;
+}
+.team-top:hover{
+    transition: all linear 0.3s;
+    box-shadow: 2px 2px 5px rgb(36, 221, 179,0.8);
+
+}
+.team-over{
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.icon{
+    transition: all linear .3s;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.icon a {
+    /*color: #fff;*/
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    border: 1px solid #e8ecee;
+    transition: all linear .3s;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.icon a:hover{
+    transition: all linear 0.3s;
+    background: rgba(36, 221, 179,0.8);
+}
+.icon a i{
+    color: #c6cacc;
+}
+
+
+/*Skills CSS*/
+
+.Skills{
+    width: 100%;
+    margin: 0 auto;
+}
+.Skills .skill-head{
+    background: rgba(166, 217, 237,0.4);
+}
+.Skills .skill-head h2{
+    text-align: center;
+    margin: 5% 0 0;
+    padding: 20px;
+}
+.skills-area{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.single-skill p{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.contactSection{
+    background: mediumpurple; 
+}
+#abc{
+    color: black;
+    padding: auto;
+}
+#def{
+    color: greenyellow;
+}
+
+.footerSection{
+    background: #000;color: #fff;padding: 30px;
+}
